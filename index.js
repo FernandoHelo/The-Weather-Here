@@ -5,6 +5,7 @@ const fetch = require('node-fetch');
 require('dotenv').config();
 
 //console.log(process.env.API_KEY);
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`Startint server at ${port}`));
 app.use(express.static('public'));
